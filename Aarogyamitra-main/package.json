@@ -1,0 +1,26 @@
+{
+  "name": "getfit",
+  "version": "1.0.0",
+  "description": "**HealthMate** is a web application designed to assist users with managing their health. It allows users to view available doctors, schedule appointments, manage notifications, and interact with a chatbot powered by OpenAI's GPT-3 to answer health-related questions.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9",
+    "openai": "^4.80.1"
+  }
+}
