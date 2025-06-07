@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
+import './Disease.css';
 
 const Disease = () => {
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
@@ -51,7 +52,7 @@ const Disease = () => {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="container disease-container">
       <h2>Disease Predictor</h2>
       <form onSubmit={handleSubmit}>
         <label>Select Symptoms:</label>
@@ -66,7 +67,7 @@ const Disease = () => {
       {prediction && (
         <div className="mt-4">
           <h4>Prediction: {prediction}</h4>
-          <div className="mt-3">
+          <div className="mt-3 tab-button">
             <button
               className={`btn me-2 ${activeTab === 'prognosis' ? 'btn-success' : 'btn-outline-success'}`}
               onClick={() => setActiveTab('prognosis')}

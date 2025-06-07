@@ -1,0 +1,44 @@
+body {
+    background-color: #fffaf0; /* Light cream */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .disease-container {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  select,
+  button,
+  .react-select__control {
+    font-size: 1rem;
+  }
+  
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .result-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: #fefefe;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  }
+  
+  .tab-buttons .btn {
+    min-width: 120px;
+  }
+  

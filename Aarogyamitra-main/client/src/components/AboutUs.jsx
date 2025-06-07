@@ -12,7 +12,7 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              AarogyaMitra is your ultimate companion for managing and enhancing
+              InstaMeds is your ultimate companion for managing and enhancing
               your health journey. Designed with a user-centric approach,
               AarogyaMitra combines cutting-edge technology with intuitive
               features to empower individuals to take control of their

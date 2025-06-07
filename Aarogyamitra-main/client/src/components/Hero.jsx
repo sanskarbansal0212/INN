@@ -11,7 +11,7 @@ const Hero = () => {
         Our Commitment
         </h1>
         <p>
-          AarogyaMitra is a comprehensive healthcare platform that connects
+         InstaMeds is a comprehensive healthcare platform that connects
           patients with expert doctors, offers hassle-free appointment bookings,
           personalized health tracking, and ensures better care management.
         </p>
